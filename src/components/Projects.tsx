@@ -1,5 +1,8 @@
 import { GithubLogo } from 'phosphor-react'
+import portfolioV2 from '../assets/projects/portfolioV2.png'
+import ignite from '../assets/projects/ignite-lab-2022.png'
 import nlw from '../assets/projects/nlw-return-impulse.png'
+import portfolioV1 from '../assets/projects/portfolioV1.png'
 
 interface TechProps {
   title: string
@@ -8,6 +11,13 @@ interface TechProps {
 
 export function Projects() {
   const projects = [
+    
+    {
+      id: '3',
+      title: 'Portfólio Atual - Projeto Pessoal',
+      imgUrl: 'src/assets/projects/portfolioV2.png',
+      url: 'https://github.com/oseiassaboia/portfolio'
+    },
     {
       id: '1',
       title: 'ignite lab 2022 - Evento da Rockeseat',
@@ -19,12 +29,6 @@ export function Projects() {
       title: 'nlw return impulse 2022 - Evento da Rockeseat',
       imgUrl: 'src/assets/projects/nlw-return-impulse.png',
       url: 'https://github.com/oseiassaboia/nlw-return-impulse'
-    },
-    {
-      id: '3',
-      title: 'Portfólio Atual - Projeto Pessoal',
-      imgUrl: 'src/assets/projects/portfolioV2.png',
-      url: 'https://github.com/oseiassaboia/portfolio'
     },
     {
       id: '4',
@@ -48,7 +52,7 @@ export function Projects() {
               >               
               <img
                 className="flex h-56 w-full rounded-3xl p-2"
-                src={projects.imgUrl}
+                src={nlw}
                 alt={projects.title}
                 />
               </a>
