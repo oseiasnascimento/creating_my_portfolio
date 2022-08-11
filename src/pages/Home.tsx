@@ -1,9 +1,9 @@
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
 import logo from '../assets/logo_dev.svg';
-import { Tech } from '../components/Tech';
 import { Skills } from '../components/Skills';
 import { GithubLogo } from 'phosphor-react';
+import { Projects } from '../components/Projects';
 
 export function Home() {
 
@@ -72,7 +72,7 @@ export function Home() {
             Projetos
           </h2>
           
-          <Skills />
+          <Projects />
 
           <div className="flex items-center justify-center mb-24 ">
             <a
@@ -94,7 +94,7 @@ export function Home() {
             Habilidades
           </h2>
 
-          <Tech />
+          <Skills />
 
         </section> 
        

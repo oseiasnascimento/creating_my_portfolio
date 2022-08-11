@@ -3,69 +3,69 @@ export function Skills() {
     {
       id: '1',
       title: 'html5',
-      url: '/src/assets/tech/html5.svg',
+      url: 'src/assets/tech/html5.svg',
     },
     {
       id: '2',
       title: 'css3',
-      url: '/src/assets/tech/css3.svg',
+      url: 'src/assets/tech/css3.svg',
     },
     {
       id: '3',
       title: 'javascript',
-      url: '/src/assets/tech/javascript.svg',
+      url: 'src/assets/tech/javascript.svg',
     },
     {
       id: '4',
       title: 'reactjs',
-      url: '/src/assets/tech/reactjs.svg',
+      url: 'src/assets/tech/reactjs.svg',
     },
     {
       id: '5',
       title: 'nodejs',
-      url: '/src/assets/tech/node.svg',
+      url: 'src/assets/tech/node.svg',
     },
     {
       id: '6',
       title: 'dotnet',
-      url: '/src/assets/tech/dot-net.svg',
+      url: 'src/assets/tech/dot-net.svg',
     },
     {
       id: '7',
       title: 'mysql',
-      url: '/src/assets/tech/mysql.svg',
+      url: 'src/assets/tech/mysql.svg',
     },
     {
       id: '8',
       title: 'sql server',
-      url: '/src/assets/tech/sql-server.svg',
+      url: 'src/assets/tech/sql-server.svg',
     }
   ]
 
   const techStudenty = [
     {
       title: 'mongodb',
-      url: '/src/assets/tech/mongodb.svg'
+      url: 'src/assets/tech/mongodb.svg'
     },
     {
       title: 'typescript',
-      url: '/src/assets/tech/typescript.svg'
+      url: 'src/assets/tech/typescript.svg'
     },
     {
       title: 'graphql',
-      url: '/src/assets/tech/graphql.svg'
+      url: 'src/assets/tech/graphql.svg'
     },
     {
       title: 'tailwindcss',
-      url: '/src/assets/tech/tailwindcss.svg'
+      url: 'src/assets/tech/tailwindcss.svg'
     },
     {
       title: 'docker',
-      url: '/src/assets/tech/docker.svg'
+      url: 'src/assets/tech/docker.svg'
     },
     {
       title: 'nextjs',
-      url: '/src/assets/tech/nextjs.svg'
+      url: 'src/assets/tech/nextjs.svg'
     }
   ]
 
