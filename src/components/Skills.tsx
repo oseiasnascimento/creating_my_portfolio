@@ -78,13 +78,13 @@ export function Skills() {
           <div className="grid grid-cols-2 gap-2">
             {techExperence.map(techExperence => {
               return (
-                <span className="flex items-center rounded-lg border border-blue-500 m-1 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
+                <span className="flex items-center rounded-lg border border-blue-500 m-0 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
                   <img
-                    className="h-12 lg:h-16 ml-0 lg:ml-2 mr-4 lg:mr-6 rounded-lg shadow"
+                    className="h-8 lg:h-16 -ml-1  lg:ml-2 mr-4 lg:mr-6 rounded-lg shadow"
                     src={techExperence.url}
                     alt={techExperence.title}
                   />
-                  <strong>{techExperence.title}</strong>
+                  <strong className="text-xs -ml-1 mr-1">{techExperence.title}</strong>
                 </span>
               )
             })}
@@ -97,13 +97,13 @@ export function Skills() {
           <div className="grid  grid-cols-2 gap-2">
             {techStudenty.map(techStudenty => {
               return (
-                <span className="flex items-center rounded-lg border border-blue-500 m-1 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
+                <span className="flex items-center rounded-lg border border-blue-500 m-0 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
                   <img
-                    className="h-12 lg:h-16 ml-0 lg:ml-2 mr-4 lg:mr-6 rounded-lg shadow"
+                    className="h-8 lg:h-16 -ml-1  lg:ml-2 mr-4 lg:mr-6 rounded-lg shadow"
                     src={techStudenty.url}
                     alt={techStudenty.title}
                   />
-                  <strong>{techStudenty.title}</strong>
+                  <strong className="text-xs -ml-1 mr-1">{techStudenty.title}</strong>
                 </span>
               )
             })}

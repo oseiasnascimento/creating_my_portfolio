@@ -1,5 +1,6 @@
 import { useState } from 'react' 
 import { Logo } from './Logo'
+import { LogoMobile } from './logoMobile'
 
 export function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false) 
@@ -7,8 +8,14 @@ export function Header() {
   return (
     <div>
       <nav className="flex items-center justify-between lg:flex lg:items-center lg:justify-center border-b border-blue-500 gap-32 py-4 px-8">
-        <a href="/">
+        <a className="hidden lg:flex"
+           href="/">
             <Logo />
+        </a>
+
+        <a className="lg:hidden"
+           href="/">
+            <LogoMobile />
         </a>
 
         <section className="MOBILE-MENU flex lg:hidden">
@@ -16,8 +23,8 @@ export function Header() {
             className="HAMBURGER-ICON space-y-2 cursor-pointer group"
             onClick={() => setIsNavOpen(prev => !prev)} 
           >
-            <span className="block w-8 h-0.5 bg-gray-100"></span>
-            <span className="block w-5 h-0.5 bg-gray-100"></span>
+            <span className="block w-8 h-0.5 bg-blue-100"></span>
+            <span className="block w-5 h-0.5 bg-blue-100"></span>
           </div>
 
           <div className={isNavOpen ? 'showMenuNav' : 'hideMenuNav'}>
