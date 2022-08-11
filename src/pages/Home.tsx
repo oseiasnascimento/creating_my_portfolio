@@ -25,14 +25,15 @@ export function Home() {
             <span
               className="box-border inline-block w-1 h-8 ml-2 -mb-2 bg-white md:-mb-2 md:h-10 animate-cursor will-change-transform">
             </span>
-            <p className="text-xs -mt-8">
+            <p className="text-xs -mt-8 md:mt-0 md:text-2xl">
               Desenvolverdor Beck-end / Front-end
             </p>
           </h1>
-          <div className="lg:h-96 h-44 mt-32  px-10 md:mb-40 md:mt-10">
+          <div className="lg:h-96 h-44 mt-32  mb-0 px-10 md:mb-40 md:mt-10">
             <img src={logo} alt="logo com o nome oseias saboia developer" />
           </div>
         </div>
+
       </section>
 
       {/* ==== About me ==== */}  
@@ -44,7 +45,7 @@ export function Home() {
         <div className="lg:w-[1500px] lg:flex lg:items-center lg:justify-center">
 
           <div className="mx-16" >
-            <div className="flex items-center justify-center border-4 border-blue-300 rounded-full p-4 before:rounded-2xl cursor-pointer">
+            <div className="flex items-center justify-center border-4 border-blue-300 rounded-full p-4  cursor-pointer md:w-96">
               <span className="border-8 border-blue-500 rounded-full">
                 <img
                   className="rounded-full"

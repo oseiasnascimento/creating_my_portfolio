@@ -1,42 +1,9 @@
-import { GithubLogo } from 'phosphor-react'
 import portfolioV2 from '../assets/projects/portfolioV2.png'
 import ignite from '../assets/projects/ignite-lab-2022.png'
 import nlw from '../assets/projects/nlw-return-impulse.png'
 import portfolioV1 from '../assets/projects/portfolioV1.png'
 
-interface TechProps {
-  title: string
-  url: string
-}
-
 export function Projects() {
-  const projects = [
-    
-    {
-      id: '1',
-      title: 'Portfólio Atual - Projeto Pessoal',
-      imgUrl: '/assets/projects/portfolioV2.png',
-      url: 'https://github.com/oseiassaboia/portfolio'
-    },
-    {
-      id: '2',
-      title: 'ignite lab 2022 - Evento da Rockeseat',
-      imgUrl: '/assets/projects/ignite-lab-2022.png',
-      url: 'https://github.com/oseiassaboia/IgniteLab-2022-event-platform'
-    },
-    {
-      id: '3',
-      title: 'nlw return impulse 2022 - Evento da Rockeseat',
-      imgUrl: '/assets/projects/nlw-return-impulse.png',
-      url: 'https://github.com/oseiassaboia/nlw-return-impulse'
-    },
-    {
-      id: '4',
-      title: 'Meu primiero Portfólio - Projeto Pessoal',
-      imgUrl: '/assets/projects/portfolioV1.png',
-      url: 'https://github.com/oseiassaboia/portfolio'
-    }
-  ]
 
   return (
     <div className="mt-0 p-10 grid lg:grid-cols-3 gap-6 m-auto ">

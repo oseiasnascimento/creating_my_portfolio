@@ -35,6 +35,7 @@ module.exports = {
       },
       backgroundImage: {
         code: 'url(/src/assets/tech/background-video.mp4)',
+        blur: 'url(/src/assets/blur.svg)', 
       },
       fontFamily: {
         sans: 'Bungee, sans-serif'
