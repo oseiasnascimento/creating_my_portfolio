@@ -22,7 +22,7 @@ export function Skills() {
         <div className="flex flex-col text-sm lg:text-2xl text-center p-10">
           <h2 className="mb-6">Tenho experiência</h2>
 
-          <div className="grid grid-cols-2 gap-2">
+          <div className="text-[0.5rem] lg:text-2xl grid grid-cols-2 gap-2">
 
                 <span className="flex items-center rounded-lg border border-blue-500 m-0 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
                   <img
@@ -30,7 +30,7 @@ export function Skills() {
                     src={html5}
                     alt="logo do html5"
                   />
-                  <strong className="text-xs lg:text-2xl -ml-1 mr-1">html</strong>
+                  <strong className="-ml-1 mr-1">html</strong>
                 </span>
 
                 <span className="flex items-center rounded-lg border border-blue-500 m-0 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
@@ -39,7 +39,7 @@ export function Skills() {
                     src={css3}
                     alt="logo do css3"
                   />
-                  <strong className="text-xs lg:text-2xl -ml-1 mr-1">css3</strong>
+                  <strong className="-ml-1 mr-1">css3</strong>
                 </span>
 
                 <span className="flex items-center rounded-lg border border-blue-500 m-0 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
@@ -48,7 +48,7 @@ export function Skills() {
                     src={javascript}
                     alt="logo do javascript"
                   />
-                  <strong className="text-xs lg:text-2xl -ml-1 mr-1">javascript</strong>
+                  <strong className="-ml-1 mr-1">javascript</strong>
                 </span>
 
                 <span className="flex items-center rounded-lg border border-blue-500 m-0 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
@@ -57,7 +57,7 @@ export function Skills() {
                     src={reactjs}
                     alt="logo do reactjs"
                   />
-                  <strong className="text-xs lg:text-2xl -ml-1 mr-1">reactjs</strong>
+                  <strong className="-ml-1 mr-1">reactjs</strong>
                 </span>
 
                 <span className="flex items-center rounded-lg border border-blue-500 m-0 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
@@ -66,7 +66,7 @@ export function Skills() {
                     src={nodejs}
                     alt="logo do nodejs"
                   />
-                  <strong className="text-xs lg:text-2xl -ml-1 mr-1">nodejs</strong>
+                  <strong className="-ml-1 mr-1">nodejs</strong>
                 </span>
 
                 <span className="flex items-center rounded-lg border border-blue-500 m-0 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
@@ -75,7 +75,7 @@ export function Skills() {
                     src={dotnet}
                     alt="logo do dotnet"
                   />
-                  <strong className="text-xs lg:text-2xl -ml-1 mr-1">dotnet</strong>
+                  <strong className="-ml-1 mr-1">dotnet</strong>
                 </span>
 
                 <span className="flex items-center rounded-lg border border-blue-500 m-0 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
@@ -84,7 +84,7 @@ export function Skills() {
                     src={mysql}
                     alt="logo do mysql"
                   />
-                  <strong className="text-xs lg:text-2xl -ml-1 mr-1">mysql</strong>
+                  <strong className="-ml-1 mr-1">mysql</strong>
                 </span>
 
                 <span className="flex items-center rounded-lg border border-blue-500 m-0 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
@@ -93,16 +93,16 @@ export function Skills() {
                     src={sqlserver}
                     alt="logo do sqlserver"
                   />
-                  <strong className="text-xs lg:text-2xl -ml-1 mr-1">sql server</strong>
+                  <strong className="-ml-1 mr-1">sql server</strong>
                 </span>
 
           </div>
         </div>
  
-        <div className="flex flex-col text-sm lg:text-2xl text-center p-10 ">
+        <div className="flex flex-col text-xs lg:text-2xl text-center p-10 ">
           <h2 className="mb-6">Estou estudando</h2>
 
-          <div className="grid  grid-cols-2 gap-2">
+          <div className="text-[0.5rem] lg:text-2xl grid  grid-cols-2 gap-2">
 
             <span className="flex items-center rounded-lg border border-blue-500 m-0 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
               <img
@@ -110,7 +110,7 @@ export function Skills() {
                 src={mongodb}
                 alt="logo do mongodb"
               />
-              <strong className="text-xs lg:text-2xl -ml-1 mr-1">mongodb</strong>
+              <strong className="-ml-1 mr-1">mongodb</strong>
             </span>
 
             <span className="flex items-center rounded-lg border border-blue-500 m-0 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
@@ -119,7 +119,7 @@ export function Skills() {
                 src={typescript}
                 alt="logo do typescript"
               />
-              <strong className="text-xs lg:text-2xl -ml-1 mr-1">typescript</strong>
+              <strong className="-ml-1 mr-1">typescript</strong>
             </span>
 
             <span className="flex items-center rounded-lg border border-blue-500 m-0 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
@@ -128,7 +128,7 @@ export function Skills() {
                 src={graphql}
                 alt="logo do graphql"
               />
-              <strong className="text-xs lg:text-2xl -ml-1 mr-1">graphql</strong>
+              <strong className="-ml-1 mr-1">graphql</strong>
             </span>
             <span className="flex items-center rounded-lg border border-blue-500 m-0 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
               <img
@@ -136,7 +136,7 @@ export function Skills() {
                 src={tailwindcss}
                 alt="logo do tailwindcss"
               />
-              <strong className="text-xs lg:text-2xl -ml-1 mr-1">tailwindcss</strong>
+              <strong className="-ml-1 mr-1">tailwindcss</strong>
             </span>
             <span className="flex items-center rounded-lg border border-blue-500 m-0 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
               <img
@@ -144,7 +144,7 @@ export function Skills() {
                 src={docker}
                 alt="logo do docker"
               />
-              <strong className="text-xs lg:text-2xl -ml-1 mr-1">docker</strong>
+              <strong className="-ml-1 mr-1">docker</strong>
             </span>
             <span className="flex items-center rounded-lg border border-blue-500 m-0 p-4 hover:bg-gray-800 hover:border-orange-500 hover:-translate-y-2 transition-transform group">
               <img
@@ -152,7 +152,7 @@ export function Skills() {
                 src={nextjs}
                 alt="logo do nextjs"
               />
-              <strong className="text-xs lg:text-2xl -ml-1 mr-1">nextjs</strong>
+              <strong className="-ml-1 mr-1">nextjs</strong>
             </span>
 
           </div>
