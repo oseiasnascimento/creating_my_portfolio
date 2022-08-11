@@ -33,6 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 Meu portfólio. Aplicação criada para apresentar quem sou e os projetos que foram desenvolvidos durante minha carreira.
+Você pode visualizar o projeto em produção através [desse link](https://www.oseiassaboia.com.br/).
 
 ## 🔖 Layout
 
