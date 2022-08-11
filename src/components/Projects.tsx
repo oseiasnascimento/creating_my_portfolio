@@ -15,25 +15,25 @@ export function Projects() {
     {
       id: '3',
       title: 'Portfólio Atual - Projeto Pessoal',
-      imgUrl: 'src/assets/projects/portfolioV2.png',
+      imgUrl: '/assets/projects/portfolioV2.png',
       url: 'https://github.com/oseiassaboia/portfolio'
     },
     {
       id: '1',
       title: 'ignite lab 2022 - Evento da Rockeseat',
-      imgUrl: 'src/assets/projects/ignite-lab-2022.png',
+      imgUrl: '/assets/projects/ignite-lab-2022.png',
       url: 'https://github.com/oseiassaboia/IgniteLab-2022-event-platform'
     },
     {
       id: '2',
       title: 'nlw return impulse 2022 - Evento da Rockeseat',
-      imgUrl: 'src/assets/projects/nlw-return-impulse.png',
+      imgUrl: '/assets/projects/nlw-return-impulse.png',
       url: 'https://github.com/oseiassaboia/nlw-return-impulse'
     },
     {
       id: '4',
       title: 'Meu primiero Portfólio - Projeto Pessoal',
-      imgUrl: 'src/assets/projects/portfolioV1.png',
+      imgUrl: '/assets/projects/portfolioV1.png',
       url: 'https://github.com/oseiassaboia/portfolio'
     }
   ]
@@ -52,7 +52,7 @@ export function Projects() {
               >               
               <img
                 className="flex h-56 w-full rounded-3xl p-2"
-                src={nlw}
+                src={projects.imgUrl}
                 alt={projects.title}
                 />
               </a>
