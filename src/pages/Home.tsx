@@ -13,27 +13,26 @@ export function Home() {
       <header className="w-full lg:fixed top-0 left-0 z-10 bg-black">
       </header>
         <Header />
-      <section className="min-h-screen flex flex-col items-center justify-center">
-        <div className="lg:flex lg:items-center lg:justify-center lg:gap-24 px-8">
-          <h1 className=" items-center justify-center text-2xl text-white md:text-6xl lg:mt-0 -mt-32">
+        <section className="min-h-screen lg:flex lg:items-center lg:justify-center">
+        <div className="lg:flex lg:items-center lg:justify-center inline-block  lg:gap-24 px-10">
+          <h1 className="text-2xl lg:text-6xl text-white mt-16 lg:mt-0 lg:mr-0">
             <p>
             Olá, eu sou 
             </p>
-            <p className="inline-flex h-20 pt- overflow-x-hidden overflow-y-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform">
+            <p className="inline-flex  h-20 pt-2  overflow-x-hidden overflow-y-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform">
               Oseias Saboia 👋 
             </p>
             <span
-              className="box-border inline-block w-1 h-8 ml-2 -mb-2 bg-white md:-mb-2 md:h-10 animate-cursor will-change-transform">
+              className="box-border inline-block w-1 h-8 lg:w-2 lg:h-10 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform">
             </span>
-            <p className="text-xs -mt-8 md:mt-0 md:text-2xl">
+            <p className='text-sm -mt-8 lg:text-2xl lg:mt-4'>
               Desenvolverdor Beck-end / Front-end
             </p>
           </h1>
-          <div className="lg:h-96 h-44 mt-32  mb-0 px-10 md:mb-40 md:mt-10">
-            <img src={logo} alt="logo com o nome oseias saboia developer" />
+          <div className="lg:mt-16 px-10 md:mb-40 md:mt-10">
+            <img className="h-96" src={logo} alt="" />
           </div>
         </div>
-
       </section>
 
       {/* ==== About me ==== */}  
