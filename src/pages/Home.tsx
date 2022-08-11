@@ -13,8 +13,8 @@ export function Home() {
       <header className="w-full lg:fixed top-0 left-0 z-10 bg-black">
       </header>
         <Header />
-      <section className="min-h-screen lg:flex lg:items-center lg:justify-center">
-        <div className="lg:flex lg:items-center lg:justify-center inline-block  gap-24 px-10">
+      <section className="min-h-screen flex flex-col items-center justify-center">
+        <div className="lg:flex lg:items-center lg:justify-center inline-block  gap-24 px-32">
           <h1 className="text-4xl text-white md:text-6xl mt-32 lg:mt-0">
             <p>
             Olá, eu sou 
