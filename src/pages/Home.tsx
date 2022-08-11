@@ -1,25 +1,14 @@
 import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
 import logo from '../assets/logo_dev.svg';
-import logoDevelopment from '../assets/web-development.svg';
 import { Tech } from '../components/Tech';
 import { Skills } from '../components/Skills';
-import { Projects } from '../components/Projects';
 import { GithubLogo } from 'phosphor-react';
-
-interface GetTech{
-  tech:{
-    title: "HTML5";
-    url: "./src/assets/tech/html5.svg";
-  }
-}
 
 export function Home() {
 
-
   return (
     <>
-
       {/* ==== Home ==== */}
       <header className="w-full lg:fixed top-0 left-0 z-10 bg-black">
       </header>
@@ -54,9 +43,6 @@ export function Home() {
           </h2>
         <div className="lg:w-[1500px] lg:flex lg:items-center lg:justify-center">
 
-          {/* <div className="w-full flex items-center justify-center" >
-            <img className="h-56 lg:h-[28rem] lg:p-0" src={logoDevelopment} alt="" />
-          </div> */}
           <div className="mx-16" >
             <div className="flex items-center justify-center border-4 border-blue-300 rounded-full p-4 before:rounded-2xl cursor-pointer">
               <span className="border-8 border-blue-500 rounded-full">
@@ -86,7 +72,7 @@ export function Home() {
             Projetos
           </h2>
           
-          <Projects />
+          <Skills />
 
           <div className="flex items-center justify-center mb-24 ">
             <a
