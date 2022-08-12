@@ -22,7 +22,7 @@ export function Home() {
               Oseias Saboia 👋
             </p>
             <span className="box-border inline-block w-1 h-8 lg:w-2 lg:h-20 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"></span>
-            <p className="w-[39rem] text-sm -mt-8 lg:text-2xl lg:mt-4">
+            <p className="w-[39rem] text-sm lg:text-2xl lg:mt-4">
               Desenvolverdor Beck-end / Front-end
             </p>
           </h1>
