@@ -16,7 +16,7 @@ export function Home() {
         <div className="absolute hidden lg:flex -bottom-56 left-0 bg-no-repeat h-[80rem] w-[80rem] -z-10 bg-blurLeft bg-cover"></div>
 
         <div className="lg:flex lg:items-center lg:justify-center lg:-mt-60 lg:gap-8 lg:px-10 px-8">
-          <h1 className="text-3xl lg:text-6xl text-white mt-16 lg:mt-0 lg:mr-0">
+          <h1 className="text-[1.6rem] lg:text-6xl text-white mt-16 lg:mt-0 lg:mr-0">
             <p>Olá, eu sou</p>
             <p className="inline-flex  h-20 pt-2  overflow-x-hidden overflow-y-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform">
               Oseias Saboia 👋
@@ -26,7 +26,7 @@ export function Home() {
               Desenvolverdor Beck-end / Front-end
             </p>
           </h1>
-          <div className="lg:mt-32 lg:mb-60 mt-56 mx-10 md:mb-40 md:mt-10">
+          <div className="lg:mt-32 lg:mb-60 mt-24 mx-10 md:mb-40 md:mt-10">
             <img className="lg:h-96 h-56" src={logo} alt="" />
           </div>
         </div>
