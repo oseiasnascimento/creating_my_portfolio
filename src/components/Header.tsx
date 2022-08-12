@@ -6,8 +6,8 @@ export function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false) 
 
   return (
-    <div>
-      <nav className="flex items-center justify-between lg:flex lg:items-center lg:justify-center border-b border-blue-500 gap-32 py-4 px-8">
+    <div >
+      <nav className="flex items-center justify-between lg:flex lg:items-center lg:justify-center lg:border-none  border-b border-blue-300 gap-32 py-4 lg:py-8 px-8 ">
         <a className="hidden lg:flex"
            href="/">
             <Logo />
@@ -23,7 +23,7 @@ export function Header() {
             className="HAMBURGER-ICON space-y-2 cursor-pointer group"
             onClick={() => setIsNavOpen(prev => !prev)} 
           >
-            <span className="block w-8 h-0.5 bg-blue-100"></span>
+            <span className="block w-8 h-0.5 bg-blue-100 "></span>
             <span className="block w-5 h-0.5 bg-blue-100"></span>
           </div>
 
