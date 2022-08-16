@@ -4,6 +4,9 @@ module.exports = {
   theme: {
     extend: {
       screens: {
+        'mobile': '390px',
+        // => @media (min-width: 640px) { ... }
+
         'tablet': '640px',
         // => @media (min-width: 640px) { ... }
   
@@ -13,10 +16,19 @@ module.exports = {
         'desktop': '1280px',
         // => @media (min-width: 1280px) { ... }
       },
+      backgroundImage: {
+        code: 'url(/src/assets/tech/background-video.mp4)',
+        blur: 'url(/src/assets/blur.png)', 
+        blurLeft: 'url(/src/assets/blurLeft.png)', 
+        blurRight: 'url(/src/assets/blurRight.png)', 
+      },
+      fontFamily: {
+        sans: 'Bungee, sans-serif'
+      },
       animation: {
         cursor: 'cursor .6s linear infinite alternate',
-        type: 'type 1.8s ease-out .8s 1 normal both',
-        'type-reverse': 'type 1.8s ease-out 0s infinite alternate-reverse both'
+        type: 'type 2s ease-out .7s 1 normal both',
+        'type-reverse': 'type 1.8s ease-out 0s infinite alternate-reverse both',
       },
       keyframes: {
         type: {
@@ -30,17 +42,8 @@ module.exports = {
           '65%, 70%': { width: '7ch' },
           '75%, 80%': { width: '8ch' },
           '85%, 90%': { width: '9ch' },
-          '95%': { width: '10ch' }
-        }
-      },
-      backgroundImage: {
-        code: 'url(/src/assets/tech/background-video.mp4)',
-        blur: 'url(/src/assets/blur.png)', 
-        blurLeft: 'url(/src/assets/blurLeft.png)', 
-        blurRight: 'url(/src/assets/blurRight.png)', 
-      },
-      fontFamily: {
-        sans: 'Bungee, sans-serif'
+          '95%': { width: '10ch' },
+        },
       },
       colors: {
         green: {

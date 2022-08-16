@@ -7,7 +7,7 @@ export function Header() {
 
   return (
     <div >
-      <nav className="flex items-center justify-between lg:flex lg:items-center lg:justify-center lg:border-none  border-b border-blue-300 gap-32 py-4 lg:py-8 px-8 ">
+      <nav className="flex items-center justify-between lg:flex lg:items-center lg:justify-center lg:border-none  border-b border-blue-300 lg:gap-32 py-4 lg:py-8 lg:px-8 p-10 gap-16">
         <a className="hidden lg:flex"
            href="/">
             <Logo />
@@ -20,10 +20,10 @@ export function Header() {
 
         <section className="MOBILE-MENU flex lg:hidden">
           <div
-            className="HAMBURGER-ICON space-y-2 cursor-pointer group"
+            className="HAMBURGER-ICON space-y-2 cursor-pointer group "
             onClick={() => setIsNavOpen(prev => !prev)} 
           >
-            <span className="block w-8 h-0.5 bg-blue-100 "></span>
+            <span className="block w-8 h-0.5 bg-blue-100"></span>
             <span className="block w-5 h-0.5 bg-blue-100"></span>
           </div>
 

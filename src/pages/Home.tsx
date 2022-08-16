@@ -10,26 +10,47 @@ export function Home() {
     <>
       {/* ==== Home ==== */}
       <Header />
-      <section className="min-h-screen lg:flex lg:items-center lg:justify-center overflow-x-hidden overflow-y-hidden">
-        <div className="absolute hidden lg:flex top-0 right-0 bg-no-repeat h-[80rem] w-[80rem] -z-10 bg-blurRight fil bg-cover overflow-x-auto"></div>
+      <section className="min-h-screen  lg:flex lg:items-center lg:justify-center overflow-x-hidden overflow-y-hidden">
+        <div className="absolute hidden lg:flex top-0 right-0 bg-no-repeat h-[80rem] w-[80rem] -z-10 bg-blurRight bg-cover overflow-x-auto"></div>
 
         <div className="absolute hidden lg:flex -bottom-56 left-0 bg-no-repeat h-[80rem] w-[80rem] -z-10 bg-blurLeft bg-cover"></div>
 
-        <div className="lg:flex lg:items-center lg:justify-center lg:-mt-60 lg:gap-8 lg:px-10 px-8">
-          <h1 className="text-[1.6rem] lg:text-6xl text-white mt-16 lg:mt-0 lg:mr-0">
-            <p>Olá, eu sou</p>
-            <p className="inline-flex  h-20 pt-2  overflow-x-hidden overflow-y-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform">
-              Oseias Saboia 👋
+        <div className="lg:w-[80rem] flex flex-col lg:flex-row  items-center justify-center lg:flex lg:justify-between lg:mb-40">
+          {/* <div className="p-12 pt-16 text-3xl lg:text-5xl lg:w-full lg:p-16">
+            <p className=" ">
+              Olá, eu sou
             </p>
-            <span className="box-border inline-block w-1 h-8 lg:w-2 lg:h-20 ml-2 -mb-2 bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"></span>
-            <p className="w-[39rem] text-sm lg:text-2xl lg:mt-4">
+
+            <p className="lg:text-6xl text-3xl  mt-4">
+              Oseias Saboia👋
+            </p>
+
+            <p className="text-xs  lg:text-2xl mt-4">
+              Desenvolverdor Beck-end / Front-end
+            </p>
+          </div> */}
+          <h1 className="lg:w-full p-2 mb-2 text-3xl text-gray-100 lg:text-6xl lg:mt-0 mt-16">
+            Olá, eu sou <br className="block " />
+            <span
+              className="inline-flex h-32 py-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform"
+            >
+            Oseias Saboia👋
+            </span>
+            <span
+              className="box-border inline-block w-1 lg:h-12 h-6 ml-2  bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"></span>
+              <p className="text-xs  lg:text-2xl lg:-mt-12 -mt-16">
               Desenvolverdor Beck-end / Front-end
             </p>
           </h1>
-          <div className="lg:mt-32 lg:mb-60 mt-24 mx-10 md:mb-40 md:mt-10">
-            <img className="lg:h-96 h-56" src={logo} alt="" />
+
+
+          <div className="lg:mt-0 mt-6">
+            <img className=" w-full lg:p-0 p-16" src={logo} alt="" />
           </div>
         </div>
+
+        <div className="absolute  lg:hidden -bottom-56  bg-no-repeat h-[80rem] w-full -z-10 bg-blur bg-cover overflow-x-hidden overflow-y-hidden"></div>
+   
       </section>
 
       {/* ==== About me ==== */}
@@ -40,7 +61,7 @@ export function Home() {
         <h2 className="flex items-center justify-center text-2xl lg:text-4xl p-16">
           Sobre mim
         </h2>
-        <div className="lg:w-[1500px] lg:flex lg:items-center lg:justify-center">
+        <div className="lg:w-[88rem] lg:flex lg:items-center lg:justify-center">
           <div className="mx-16">
             <div className="flex items-center justify-center border-4 border-blue-300 rounded-full p-4  cursor-pointer md:w-96">
               <span className="border-8 border-blue-500 rounded-full">
