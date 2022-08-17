@@ -49,7 +49,7 @@ export function Home() {
           </div>
         </div>
 
-        <div className="absolute  lg:hidden -bottom-56  bg-no-repeat h-[80rem] w-full -z-10 bg-blur bg-cover overflow-x-hidden overflow-y-hidden"></div>
+        <div className="absolute  lg:hidden -bottom-56  bg-no-repeat h-full w-full -z-10 bg-blur bg-cover overflow-x-hidden overflow-y-hidden"></div>
    
       </section>
 
