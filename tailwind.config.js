@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.tsx'],
+  safelist: [
+    'bg-gradient-to-r',
+    'from',
+    'to',
+  ],
   theme: {
     extend: {
       screens: {
