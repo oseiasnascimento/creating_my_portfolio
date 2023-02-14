@@ -76,10 +76,10 @@ export function Home() {
 
           <div className="w-full flex items-center justify-center p-16">
             <p className="text-base lg:text-4xl text-justify leading-relaxed">
-              desenvolvimeto web, atuando como desenvolvedor júnior em
-              Back-end/Font-end. Sou programador há pouco mais de 3 anos e tenho
-              experiência em Em busca de conhecimento das melhores tecnologias
-              de desenvolvimento web e mobile.
+              Olá, me chamo Oseias Saboia, e sou desenvolvedor web, atuando como
+              Back-end/Font-end. Sou programador há pouco mais de 5 anos e tenho
+              experiência profissional de 1 ano e 8 meses.Em busca de conhecimento das melhores tecnologias
+              de desenvolvimento web.
             </p>
           </div>
         </div>
