@@ -26,23 +26,19 @@ export function Home() {
             </p>
 
             <p className="text-xs  lg:text-2xl mt-4">
-              Desenvolverdor Beck-end / Front-end
+              Desenvolverdor Backend
             </p>
           </div> */}
           <h1 className="lg:w-full p-2 mb-2 text-3xl text-gray-100 lg:text-6xl lg:mt-0 mt-16">
             Olá, eu sou <br className="block " />
-            <span
-              className="inline-flex h-32 py-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform"
-            >
-            Oseias Saboia👋
+            <span className="inline-flex h-32 py-2 overflow-x-hidden animate-type group-hover:animate-type-reverse whitespace-nowrap text-brand-accent will-change-transform">
+              Oseias Saboia👋
             </span>
-            <span
-              className="box-border inline-block w-1 lg:h-12 h-6 ml-2  bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"></span>
-              <p className="text-xs  lg:text-2xl lg:-mt-12 -mt-16">
-              Desenvolverdor Beck-end / Front-end
+            <span className="box-border inline-block w-1 lg:h-12 h-6 ml-2  bg-white md:-mb-4 md:h-16 animate-cursor will-change-transform"></span>
+            <p className="text-xs  lg:text-2xl lg:-mt-12 -mt-16">
+              Desenvolverdor Backend
             </p>
           </h1>
-
 
           <div className="lg:mt-0 mt-6">
             <img className=" w-full lg:p-0 p-16" src={logo} alt="" />
@@ -50,7 +46,6 @@ export function Home() {
         </div>
 
         <div className="absolute  lg:hidden -bottom-56  bg-no-repeat h-full w-full -z-10 bg-blur bg-cover overflow-x-hidden overflow-y-hidden"></div>
-   
       </section>
 
       {/* ==== About me ==== */}
@@ -77,9 +72,9 @@ export function Home() {
           <div className="w-full flex items-center justify-center p-16">
             <p className="text-base lg:text-4xl text-justify leading-relaxed">
               Olá, me chamo Oseias Saboia, e sou desenvolvedor web, atuando como
-              Back-end/Font-end. Sou programador há pouco mais de 5 anos e tenho
-              experiência profissional de 1 ano e 8 meses.Em busca de conhecimento das melhores tecnologias
-              de desenvolvimento web.
+              Backend. Sou programador há pouco mais de 5 anos e tenho
+              experiência profissional de 1 ano e 8 meses.Em busca de
+              conhecimento das melhores tecnologias de desenvolvimento web.
             </p>
           </div>
         </div>
@@ -87,7 +82,6 @@ export function Home() {
 
       {/* ==== Projects ==== */}
       <section id="projects" className="min-h-screen flex flex-col">
-        
         <h2 className="flex items-center justify-center text-2xl lg:text-4xl lg:mt-0 lg:p-16 mt-16">
           Projetos
         </h2>
