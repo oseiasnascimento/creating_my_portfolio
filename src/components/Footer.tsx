@@ -1,10 +1,9 @@
 import { GithubLogo, InstagramLogo, LinkedinLogo } from 'phosphor-react'
 
 export function BackTop() {
-    window.scrollTo(0, 0)
+  window.scrollTo(0, 0)
 }
 export function Footer() {
-
   return (
     <>
       <footer className="text-[10px] lg:text-xs text-gray-100 w-full h-16 p-5 flex items-center justify-between bg-black border-top border-gray-600">
@@ -31,7 +30,7 @@ export function Footer() {
           </button>
           <a
             className="flex flex-row items-center gap-3 hover:text-yellow-500 transition-colors group "
-            href="https://github.com/oseiassaboia"
+            href="https://github.com/oseiasnascimento"
             target="_blank"
             rel="noopener"
           >
@@ -40,7 +39,7 @@ export function Footer() {
           </a>
           <a
             className="flex flex-row items-center gap-3 hover:text-yellow-500 transition-colors group"
-            href="https://www.linkedin.com/in/oseias-saboia-99ab1ba5/"
+            href="https://www.linkedin.com/in/oseiasnascimento/"
             target="_blank"
             rel="noopener"
           >
