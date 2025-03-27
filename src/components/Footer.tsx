@@ -48,7 +48,7 @@ export function Footer() {
           </a>
           <a
             className="flex flex-row items-center gap-3 hover:text-yellow-500 transition-colors group"
-            href="https://www.instagram.com/oseiassaboia/"
+            href="https://www.instagram.com/oseiasnascimentto/"
             target="_blank"
             rel="noopener"
           >
